@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+h1 {
+    color: #00A0A0;
+    font-size: 200%;
+    font-family: serif;
+    margin-bottom: 20px; /* 下側(したがわ)に20pxの外側(そとがわ)余白(よはく)を作る */
+}
+
+/* 段落(だんらく)の設定(せってい) */
+p {
+    font-weight: bold;   /* 文字(moji)の太(ふと)さを太字(ふとじ)にする */
+}
