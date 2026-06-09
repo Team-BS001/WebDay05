@@ -14,11 +14,16 @@ p {
 
 a {
     text-decoration: none;
-    color: #ffffff;              /* 文字(moji)の色(いろ)を白(しろ)にする */
-    background-color: #007bff;   /* 背景色(はいけいしょく)を濃(こ)い青(あお)にする */
-    padding: 10px 20px;          /* 内側(うちがわ)の余白(よはく)を「上下10px、左右20px」にする */
-    border-radius: 4px;          /* 四(よ)すみを4px丸(まる)くする */
-    display: inline-block;       /* 【重要(じゅうよう)】aタグに正しく余白(よはく)を当てるための魔法(まほう)の命令(めいれい) */
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: 0.3s;            /* 色(いろ)の変化(へんか)を0.3秒(びょう)かけてフワッとさせる */
 }
 
+/* マウスが乗(の)ったときの設定(せってい) */
+a:hover {
+    background-color: #0056b3;   /* 背景色(はいけいしょく)を少し濃(こ)い青(あお)に変(か)える */
+}
 
