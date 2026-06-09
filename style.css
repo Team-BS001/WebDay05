@@ -11,3 +11,14 @@ h1 {
 p {
     font-weight: bold;   /* 文字(moji)の太(ふと)さを太字(ふとじ)にする */
 }
+
+a {
+    text-decoration: none;
+    color: #ffffff;              /* 文字(moji)の色(いろ)を白(しろ)にする */
+    background-color: #007bff;   /* 背景色(はいけいしょく)を濃(こ)い青(あお)にする */
+    padding: 10px 20px;          /* 内側(うちがわ)の余白(よはく)を「上下10px、左右20px」にする */
+    border-radius: 4px;          /* 四(よ)すみを4px丸(まる)くする */
+    display: inline-block;       /* 【重要(じゅうよう)】aタグに正しく余白(よはく)を当てるための魔法(まほう)の命令(めいれい) */
+}
+
+
